@@ -1,0 +1,86 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fragment.LessonFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:src="@drawable/back_arrow"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/lessonNameLayout"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:background="@drawable/background_layout"
+                android:elevation="0dp"
+                app:layout_constraintBottom_toTopOf="@id/lessonText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/lessonNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font_medium"
+                    android:text="Lesson 1"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@id/lessonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/lessonName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font_medium"
+                    android:gravity="center"
+                    android:text="Kotlin Programming language and history "
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/lessonNumber"
+
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/lessonText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/kotlin_bu_android_dasturlarini_ishlab_chiqish_uchun_juda_mos_keladi_zamonaviy_tilning_barcha_afzalliklarini_android_platformasiga_hech_qanday_yangi_cheklovlarsiz_kiritadi_moslashuvchanlik_kotlin_jdk_6_ga_to_liq_mos_keladi_kotlin_ilovalari_eski_android_qurilmalarida_muammosiz_ishlashini_ta_minlaydi_kotlin_vositasi_android_studio_da_to_liq_qo_llab_quvvatlanadi_va_android_os_tizimiga_mos_keladi_samaradorlik_kotlin_loyihalarda_bytekod_tuzilishi_tufayli_java_ga_o_xshash_ekvivalent_kabi_tez_ishlaydi_kotlin_ning_ichki_funksiyalarini_qo_llab_quvvatlashi_bilan_lambdalardan_foydalanadigan_kod_ko_pincha_java_da_yozilgan_koddan_tezroq_ishlaydi"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/lessonNameLayout"
+                tools:ignore="UnusedAttribute" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

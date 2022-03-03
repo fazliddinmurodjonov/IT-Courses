@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/lessonButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/background_button_circle"
+            android:fontFamily="@font/font_medium"
+            android:gravity="center"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="20dp"
+            android:text="1"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:backgroundTint="@null"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            style="@style/TextViewMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:text="@string/lesson"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/lessonButton"
+            app:layout_constraintEnd_toEndOf="@id/lessonButton"
+            app:layout_constraintStart_toStartOf="@id/lessonButton"
+            app:layout_constraintTop_toTopOf="@id/lessonButton"
+            app:layout_constraintVertical_bias="0.7"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/add_image.xml" value="0.1525" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/back.xml" value="0.199" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/back_arrow.xml" value="0.154" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/background_button.xml" value="0.144" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/background_button_circle.xml" value="0.1705" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/background_button_delete.xml" value="0.1525" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/background_button_edit.xml" value="0.1525" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/background_circle_process.xml" value="0.1525" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/background_layout.xml" value="0.195" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/camera.xml" value="0.1585" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/check_image.xml" value="0.1525" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/delete.xml" value="0.185" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/delete_image.xml" value="0.1525" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/edit_image.xml" value="0.1525" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/gallery.xml" value="0.1175" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/setting.xml" value="0.1525" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/drawable/setting_image.xml" value="0.1525" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout-v26/fragment_lesson.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/background_layout.xml" value="0.190625" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/custom_permission_dialog.xml" value="0.4" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_add_lesson.xml" value="0.2" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_add_modul.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_add_module.xml" value="0.15731785944551901" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_course.xml" value="0.264" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_edit_lesson.xml" value="0.176" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_edit_modul.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_edit_module.xml" value="0.2" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_home.xml" value="0.18960468521229867" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_lesson.xml" value="0.176" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_modul.xml" value="0.176" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_module.xml" value="0.2" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_setting_edit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_settings.xml" value="0.176" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/fragment_settings_edit.xml" value="0.4" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/item_course_in_settings.xml" value="0.4458128078817734" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/item_course_modul.xml" value="0.264" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/item_course_modul_rv.xml" value="0.2" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/item_course_module.xml" value="0.2" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/item_course_module_rv.xml" value="0.2" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/item_lesson.xml" value="0.264" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/item_lesson_add.xml" value="0.8800000000000001" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/item_module.xml" value="0.264" />
+        <entry key="..\:/Programming/PDP/Projects/AndroidDatabaseLesson8onlinecourses/app/src/main/res/layout/item_module_add.xml" value="0.152" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

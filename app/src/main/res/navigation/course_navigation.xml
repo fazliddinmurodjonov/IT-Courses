@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/course_navigation.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/addLessonFragment"
+        android:name="com.fragment.AddLessonFragment"
+        tools:layout="@layout/fragment_add_lesson"
+        android:label="fragment_add_lesson">
+        <action
+            android:id="@+id/action_addLessonFragment_to_editLessonFragment"
+            app:destination="@id/editLessonFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.fragment.CourseFragment"
+        tools:layout="@layout/fragment_course"
+        android:label="fragment_course">
+        <action
+            android:id="@+id/action_courseFragment_to_moduleFragment"
+            app:destination="@id/moduleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingEditFragment"
+        android:name="com.fragment.SettingsEditFragment"
+        tools:layout="@layout/fragment_settings_edit"
+        android:label="Setting Edit" />
+    <fragment
+        android:id="@+id/editModuleFragment"
+        android:name="com.fragment.EditModuleFragment"
+        tools:layout="@layout/fragment_edit_module"
+        android:label="" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.fragment.SettingsFragment"
+        tools:layout="@layout/fragment_settings"
+        android:label="Settings">
+        <action
+            android:id="@+id/action_settingFragment_to_settingEditFragment2"
+            app:destination="@id/settingEditFragment" />
+        <action
+            android:id="@+id/action_settingFragment_to_addModuleFragment"
+            app:destination="@id/addModuleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editLessonFragment"
+        android:name="com.fragment.EditLessonFragment"
+        tools:layout="@layout/fragment_edit_lesson"
+        android:label="fragment_edit_lesson" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.fragment.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="Hello">
+        <action
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moduleFragment"
+        android:name="com.fragment.ModuleFragment"
+        tools:layout="@layout/fragment_module"
+        android:label="Android Development">
+        <action
+            android:id="@+id/action_moduleFragment_to_lessonFragment"
+            app:destination="@id/lessonFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lessonFragment"
+        android:name="com.fragment.LessonFragment"
+        tools:layout="@layout/fragment_lesson"
+        android:label="fragment_lesson" />
+    <fragment
+        android:id="@+id/addModuleFragment"
+        android:name="com.fragment.AddModuleFragment"
+        tools:layout="@layout/fragment_add_module"
+        android:label="fragment_add_module">
+        <action
+            android:id="@+id/action_addModuleFragment_to_addLessonFragment"
+            app:destination="@id/addLessonFragment" />
+        <action
+            android:id="@+id/action_addModuleFragment_to_editModuleFragment"
+            app:destination="@id/editModuleFragment" />
+    </fragment>
+</navigation>
