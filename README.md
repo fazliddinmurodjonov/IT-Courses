@@ -7,7 +7,8 @@
 <img src="images/image_14.jpg" width = "250"> <img src="images/image_13.jpg" width = "250" > <img src="images/image_15.jpg" width = "250">
 
 
-I made icons for this application.
+<h3>I made icons for this application.<h3>
+
 ![Screenshot_4](https://user-images.githubusercontent.com/77713867/156641507-a482e3a0-ca14-4a9f-b5bb-f4d7a9e2354a.png)
 
 Navigation  :
